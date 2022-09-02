@@ -9,7 +9,7 @@ import {
 } from 'react-icons/si';
 const Skills = () => {
   return (
-    <section className='mt-12'>
+    <section className='mt-20'>
       <h2 className='text-3xl font-semibold'>Techs</h2>
       <div className='pl-4 mt-2 space-y-2'>
         <Technology icon={SiReact} text='React' />

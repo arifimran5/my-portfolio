@@ -14,12 +14,12 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
-      <h1 className='mt-4 text-5xl font-extrabold'>
+      <h1 className='mt-4 text-5xl font-bold'>
         Hi I&apos;m <span className='text-blue-500'>Arif</span>
       </h1>
       <p className='text-lg mt-2'>
-        Web developer. Developing UI and featureful web applications with React
-        and nodeJS.
+        Web developer. Developing UI and featureful web applications with
+        React&lt;T&gt; and nodeJS&lt;T&gt;.
       </p>
       <Socials />
       <Skills />
