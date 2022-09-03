@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
-      <h1 className='mt-4 text-5xl font-bold'>
+      <h1 className='mt-4 text-5xl font-semibold'>
         Hi I&apos;m <span className='text-blue-500'>Arif</span>
       </h1>
       <p className='text-lg mt-2'>

@@ -39,8 +39,8 @@ const ProjectList = () => {
 
 const Project = ({ name, url, description }: ProjectProps) => {
   return (
-    <div className='border-2 border-gray-300 rounded-md px-2 py-3'>
-      <a href={url} className='text-blue-500'>
+    <div className='border-2 border-gray-200 rounded-md px-2 py-3'>
+      <a href={url} target='_blank' rel='noreferrer' className='text-blue-500'>
         <h1 className='text-2xl font-extrabold'>{name}</h1>
       </a>
       <p>{description}</p>

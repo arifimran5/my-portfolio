@@ -1,7 +1,7 @@
 import { GrTwitter, GrLinkedin, GrMail, GrGithub } from 'react-icons/gr';
 const Socials = () => {
   return (
-    <section className='mt-6 flex space-x-4 sm:space-x-6 items-center'>
+    <section className='social-list mt-6 flex space-x-4 sm:space-x-6 items-center border-b-2 border-gray-100 w-max py-2 px-3 rounded-lg shadow-sm'>
       <a
         href='https://twitter.com/arifdotai'
         target='_blank'
