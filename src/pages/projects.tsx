@@ -9,7 +9,6 @@ const projects = () => {
       <Head>
         <title>Projects</title>
         <meta name='description' content='Porject page' />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
       <h1 className='text-4xl font-extrabold'>Projects</h1>

@@ -5,18 +5,18 @@ class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          {/* <link href='/favicon-48x48.png' rel='shortcut icon' />
+          <link href='/favicon-32x32.png' rel='shortcut icon' />
           <link
             href='/apple-touch-icon.png'
             rel='apple-touch-icon'
             sizes='180x180'
           />
           <link
-            href='/favicon-32x32.png'
+            href='/android-chrome-192x192.png'
             rel='icon'
-            sizes='32x32'
+            sizes='192x192'
             type='image/png'
-          /> */}
+          />
         </Head>
         <body>
           <Main />
