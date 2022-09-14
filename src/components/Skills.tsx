@@ -26,7 +26,7 @@ const Technology = ({ text, icon }: { text: ReactNode; icon: IconType }) => {
   return (
     <div className='flex items-center gap-4'>
       <span>{icon({ className: 'h-6 w-6' })}</span>
-      <span className='text-lg'>{text}</span>
+      <span>{text}</span>
     </div>
   );
 };
